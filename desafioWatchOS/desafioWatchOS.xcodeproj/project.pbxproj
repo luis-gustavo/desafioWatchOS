@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ECCCF081F5DED5C00BD06CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF071F5DED5C00BD06CE /* AppDelegate.swift */; };
+		6ECCCF0A1F5DED5C00BD06CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF091F5DED5C00BD06CE /* ViewController.swift */; };
+		6ECCCF0D1F5DED5C00BD06CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF0B1F5DED5C00BD06CE /* Main.storyboard */; };
+		6ECCCF0F1F5DED5C00BD06CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF0E1F5DED5C00BD06CE /* Assets.xcassets */; };
+		6ECCCF121F5DED5C00BD06CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF101F5DED5C00BD06CE /* LaunchScreen.storyboard */; };
+		6ECCCF171F5DED5D00BD06CE /* desafioWatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6ECCCF161F5DED5D00BD06CE /* desafioWatchOS WatchKit App.app */; };
+		6ECCCF1D1F5DED5D00BD06CE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF1B1F5DED5D00BD06CE /* Interface.storyboard */; };
+		6ECCCF1F1F5DED5D00BD06CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF1E1F5DED5D00BD06CE /* Assets.xcassets */; };
+		6ECCCF261F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6ECCCF251F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6ECCCF2B1F5DED5D00BD06CE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */; };
+		6ECCCF2D1F5DED5D00BD06CE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */; };
+		6ECCCF2F1F5DED5D00BD06CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ECCCF181F5DED5D00BD06CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCCEFC1F5DED5C00BD06CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECCCF151F5DED5D00BD06CE;
+			remoteInfo = "desafioWatchOS WatchKit App";
+		};
+		6ECCCF271F5DED5D00BD06CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCCEFC1F5DED5C00BD06CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECCCF241F5DED5D00BD06CE;
+			remoteInfo = "desafioWatchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6ECCCF361F5DED5D00BD06CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6ECCCF261F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCCF3A1F5DED5D00BD06CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6ECCCF171F5DED5D00BD06CE /* desafioWatchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6ECCCF041F5DED5C00BD06CE /* desafioWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCCF071F5DED5C00BD06CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ECCCF091F5DED5C00BD06CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ECCCF0C1F5DED5C00BD06CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ECCCF0E1F5DED5C00BD06CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECCCF111F5DED5C00BD06CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ECCCF131F5DED5C00BD06CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECCCF161F5DED5D00BD06CE /* desafioWatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafioWatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCCF1C1F5DED5D00BD06CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6ECCCF1E1F5DED5D00BD06CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECCCF201F5DED5D00BD06CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECCCF251F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "desafioWatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECCCF301F5DED5D00BD06CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECCCF011F5DED5C00BD06CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCCF221F5DED5D00BD06CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECCCEFB1F5DED5C00BD06CE = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF061F5DED5C00BD06CE /* desafioWatchOS */,
+				6ECCCF1A1F5DED5D00BD06CE /* desafioWatchOS WatchKit App */,
+				6ECCCF291F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */,
+				6ECCCF051F5DED5C00BD06CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECCCF051F5DED5C00BD06CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF041F5DED5C00BD06CE /* desafioWatchOS.app */,
+				6ECCCF161F5DED5D00BD06CE /* desafioWatchOS WatchKit App.app */,
+				6ECCCF251F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECCCF061F5DED5C00BD06CE /* desafioWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF071F5DED5C00BD06CE /* AppDelegate.swift */,
+				6ECCCF091F5DED5C00BD06CE /* ViewController.swift */,
+				6ECCCF0B1F5DED5C00BD06CE /* Main.storyboard */,
+				6ECCCF0E1F5DED5C00BD06CE /* Assets.xcassets */,
+				6ECCCF101F5DED5C00BD06CE /* LaunchScreen.storyboard */,
+				6ECCCF131F5DED5C00BD06CE /* Info.plist */,
+			);
+			path = desafioWatchOS;
+			sourceTree = "<group>";
+		};
+		6ECCCF1A1F5DED5D00BD06CE /* desafioWatchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF1B1F5DED5D00BD06CE /* Interface.storyboard */,
+				6ECCCF1E1F5DED5D00BD06CE /* Assets.xcassets */,
+				6ECCCF201F5DED5D00BD06CE /* Info.plist */,
+			);
+			path = "desafioWatchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		6ECCCF291F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */,
+				6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */,
+				6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */,
+				6ECCCF301F5DED5D00BD06CE /* Info.plist */,
+			);
+			path = "desafioWatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECCCF031F5DED5C00BD06CE /* desafioWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECCCF3B1F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS" */;
+			buildPhases = (
+				6ECCCF001F5DED5C00BD06CE /* Sources */,
+				6ECCCF011F5DED5C00BD06CE /* Frameworks */,
+				6ECCCF021F5DED5C00BD06CE /* Resources */,
+				6ECCCF3A1F5DED5D00BD06CE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECCCF191F5DED5D00BD06CE /* PBXTargetDependency */,
+			);
+			name = desafioWatchOS;
+			productName = desafioWatchOS;
+			productReference = 6ECCCF041F5DED5C00BD06CE /* desafioWatchOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ECCCF151F5DED5D00BD06CE /* desafioWatchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECCCF371F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS WatchKit App" */;
+			buildPhases = (
+				6ECCCF141F5DED5D00BD06CE /* Resources */,
+				6ECCCF361F5DED5D00BD06CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECCCF281F5DED5D00BD06CE /* PBXTargetDependency */,
+			);
+			name = "desafioWatchOS WatchKit App";
+			productName = "desafioWatchOS WatchKit App";
+			productReference = 6ECCCF161F5DED5D00BD06CE /* desafioWatchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6ECCCF241F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECCCF331F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS WatchKit Extension" */;
+			buildPhases = (
+				6ECCCF211F5DED5D00BD06CE /* Sources */,
+				6ECCCF221F5DED5D00BD06CE /* Frameworks */,
+				6ECCCF231F5DED5D00BD06CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "desafioWatchOS WatchKit Extension";
+			productName = "desafioWatchOS WatchKit Extension";
+			productReference = 6ECCCF251F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECCCEFC1F5DED5C00BD06CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luis Gustavo Avelino de Lima Jacinto";
+				TargetAttributes = {
+					6ECCCF031F5DED5C00BD06CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A93689JNSR;
+						ProvisioningStyle = Automatic;
+					};
+					6ECCCF151F5DED5D00BD06CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A93689JNSR;
+						ProvisioningStyle = Automatic;
+					};
+					6ECCCF241F5DED5D00BD06CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A93689JNSR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6ECCCEFF1F5DED5C00BD06CE /* Build configuration list for PBXProject "desafioWatchOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECCCEFB1F5DED5C00BD06CE;
+			productRefGroup = 6ECCCF051F5DED5C00BD06CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECCCF031F5DED5C00BD06CE /* desafioWatchOS */,
+				6ECCCF151F5DED5D00BD06CE /* desafioWatchOS WatchKit App */,
+				6ECCCF241F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECCCF021F5DED5C00BD06CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCCF121F5DED5C00BD06CE /* LaunchScreen.storyboard in Resources */,
+				6ECCCF0F1F5DED5C00BD06CE /* Assets.xcassets in Resources */,
+				6ECCCF0D1F5DED5C00BD06CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCCF141F5DED5D00BD06CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCCF1F1F5DED5D00BD06CE /* Assets.xcassets in Resources */,
+				6ECCCF1D1F5DED5D00BD06CE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCCF231F5DED5D00BD06CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCCF2F1F5DED5D00BD06CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECCCF001F5DED5C00BD06CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCCF0A1F5DED5C00BD06CE /* ViewController.swift in Sources */,
+				6ECCCF081F5DED5C00BD06CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCCF211F5DED5D00BD06CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCCF2D1F5DED5D00BD06CE /* ExtensionDelegate.swift in Sources */,
+				6ECCCF2B1F5DED5D00BD06CE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ECCCF191F5DED5D00BD06CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECCCF151F5DED5D00BD06CE /* desafioWatchOS WatchKit App */;
+			targetProxy = 6ECCCF181F5DED5D00BD06CE /* PBXContainerItemProxy */;
+		};
+		6ECCCF281F5DED5D00BD06CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECCCF241F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */;
+			targetProxy = 6ECCCF271F5DED5D00BD06CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ECCCF0B1F5DED5C00BD06CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECCCF0C1F5DED5C00BD06CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ECCCF101F5DED5C00BD06CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECCCF111F5DED5C00BD06CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6ECCCF1B1F5DED5D00BD06CE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECCCF1C1F5DED5D00BD06CE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ECCCF311F5DED5D00BD06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ECCCF321F5DED5D00BD06CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECCCF341F5DED5D00BD06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = A93689JNSR;
+				INFOPLIST_FILE = "desafioWatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		6ECCCF351F5DED5D00BD06CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = A93689JNSR;
+				INFOPLIST_FILE = "desafioWatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		6ECCCF381F5DED5D00BD06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A93689JNSR;
+				IBSC_MODULE = desafioWatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "desafioWatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		6ECCCF391F5DED5D00BD06CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A93689JNSR;
+				IBSC_MODULE = desafioWatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "desafioWatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		6ECCCF3C1F5DED5D00BD06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A93689JNSR;
+				INFOPLIST_FILE = desafioWatchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ECCCF3D1F5DED5D00BD06CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A93689JNSR;
+				INFOPLIST_FILE = desafioWatchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECCCEFF1F5DED5C00BD06CE /* Build configuration list for PBXProject "desafioWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCCF311F5DED5D00BD06CE /* Debug */,
+				6ECCCF321F5DED5D00BD06CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECCCF331F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCCF341F5DED5D00BD06CE /* Debug */,
+				6ECCCF351F5DED5D00BD06CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ECCCF371F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCCF381F5DED5D00BD06CE /* Debug */,
+				6ECCCF391F5DED5D00BD06CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ECCCF3B1F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCCF3C1F5DED5D00BD06CE /* Debug */,
+				6ECCCF3D1F5DED5D00BD06CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECCCEFC1F5DED5C00BD06CE /* Project object */;
+}
