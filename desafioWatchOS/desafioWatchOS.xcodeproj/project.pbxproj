@@ -19,6 +19,8 @@
 		6ECCCF2B1F5DED5D00BD06CE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */; };
 		6ECCCF2D1F5DED5D00BD06CE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */; };
 		6ECCCF2F1F5DED5D00BD06CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */; };
+		6ECCCF401F5DEDE200BD06CE /* Cinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF3F1F5DEDE200BD06CE /* Cinema.swift */; };
+		6ECCCF421F5DEE5D00BD06CE /* CinemasSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF411F5DEE5D00BD06CE /* CinemasSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ECCCF301F5DED5D00BD06CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECCCF3F1F5DEDE200BD06CE /* Cinema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cinema.swift; sourceTree = "<group>"; };
+		6ECCCF411F5DEE5D00BD06CE /* CinemasSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemasSingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		6ECCCEFB1F5DED5C00BD06CE = {
 			isa = PBXGroup;
 			children = (
+				6ECCCF3E1F5DEDB900BD06CE /* Model */,
 				6ECCCF061F5DED5C00BD06CE /* desafioWatchOS */,
 				6ECCCF1A1F5DED5D00BD06CE /* desafioWatchOS WatchKit App */,
 				6ECCCF291F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */,
@@ -152,6 +157,15 @@
 				6ECCCF301F5DED5D00BD06CE /* Info.plist */,
 			);
 			path = "desafioWatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6ECCCF3E1F5DEDB900BD06CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF3F1F5DEDE200BD06CE /* Cinema.swift */,
+				6ECCCF411F5DEE5D00BD06CE /* CinemasSingleton.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECCCF421F5DEE5D00BD06CE /* CinemasSingleton.swift in Sources */,
+				6ECCCF401F5DEDE200BD06CE /* Cinema.swift in Sources */,
 				6ECCCF0A1F5DED5C00BD06CE /* ViewController.swift in Sources */,
 				6ECCCF081F5DED5C00BD06CE /* AppDelegate.swift in Sources */,
 			);
@@ -559,6 +575,7 @@
 				6ECCCF351F5DED5D00BD06CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ECCCF371F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +584,7 @@
 				6ECCCF391F5DED5D00BD06CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ECCCF3B1F5DED5D00BD06CE /* Build configuration list for PBXNativeTarget "desafioWatchOS" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +593,7 @@
 				6ECCCF3D1F5DED5D00BD06CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
