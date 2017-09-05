@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Location Interface Controller-->
+        <scene sceneID="4tI-MY-8tS">
+            <objects>
+                <controller id="OPV-ry-0k1" customClass="LocationInterfaceController" customModule="desafioWatchOS_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="GZc-7b-gvu">
+                            <items>
+                                <map height="100" alignment="left" id="OFz-0l-lL6"/>
+                                <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="YbJ-PS-sz6">
+                                    <connections>
+                                        <action selector="changeMapRegion:" destination="OPV-ry-0k1" id="Kbl-zl-Hwf"/>
+                                    </connections>
+                                </slider>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="mapObject" destination="OFz-0l-lL6" id="cLl-S7-ee2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="104" y="-172"/>
+        </scene>
+    </scenes>
+</document>

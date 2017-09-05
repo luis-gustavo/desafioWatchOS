@@ -19,8 +19,9 @@
 		6ECCCF2B1F5DED5D00BD06CE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */; };
 		6ECCCF2D1F5DED5D00BD06CE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */; };
 		6ECCCF2F1F5DED5D00BD06CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */; };
-		6ECCCF401F5DEDE200BD06CE /* Cinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF3F1F5DEDE200BD06CE /* Cinema.swift */; };
-		6ECCCF421F5DEE5D00BD06CE /* CinemasSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF411F5DEE5D00BD06CE /* CinemasSingleton.swift */; };
+		6ECCCF4E1F5DF43300BD06CE /* CinemasRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF4D1F5DF43300BD06CE /* CinemasRowController.swift */; };
+		6ECCCF501F5F10F800BD06CE /* LocationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF4F1F5F10F800BD06CE /* LocationStoryboard.storyboard */; };
+		6ECCCF521F5F114000BD06CE /* LocationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF511F5F114000BD06CE /* LocationInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +83,9 @@
 		6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ECCCF301F5DED5D00BD06CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECCCF3F1F5DEDE200BD06CE /* Cinema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cinema.swift; sourceTree = "<group>"; };
-		6ECCCF411F5DEE5D00BD06CE /* CinemasSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemasSingleton.swift; sourceTree = "<group>"; };
+		6ECCCF4D1F5DF43300BD06CE /* CinemasRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemasRowController.swift; sourceTree = "<group>"; };
+		6ECCCF4F1F5F10F800BD06CE /* LocationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LocationStoryboard.storyboard; sourceTree = "<group>"; };
+		6ECCCF511F5F114000BD06CE /* LocationInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,6 @@
 		6ECCCEFB1F5DED5C00BD06CE = {
 			isa = PBXGroup;
 			children = (
-				6ECCCF3E1F5DEDB900BD06CE /* Model */,
 				6ECCCF061F5DED5C00BD06CE /* desafioWatchOS */,
 				6ECCCF1A1F5DED5D00BD06CE /* desafioWatchOS WatchKit App */,
 				6ECCCF291F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */,
@@ -141,7 +142,10 @@
 		6ECCCF1A1F5DED5D00BD06CE /* desafioWatchOS WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				6ECCCF1B1F5DED5D00BD06CE /* Interface.storyboard */,
+				6ECCCF461F5DEF4800BD06CE /* TrailerStoryboard */,
+				6ECCCF451F5DEF3E00BD06CE /* LocationStoryboard */,
+				6ECCCF441F5DEF1100BD06CE /* TrailerOrLocationStoryboard */,
+				6ECCCF431F5DEF0100BD06CE /* AllCinemasStoryboard */,
 				6ECCCF1E1F5DED5D00BD06CE /* Assets.xcassets */,
 				6ECCCF201F5DED5D00BD06CE /* Info.plist */,
 			);
@@ -151,7 +155,10 @@
 		6ECCCF291F5DED5D00BD06CE /* desafioWatchOS WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */,
+				6ECCCF4A1F5DF03500BD06CE /* TrailerStoryboard */,
+				6ECCCF491F5DF02900BD06CE /* LocationController */,
+				6ECCCF481F5DF02200BD06CE /* TrailerOrLocationController */,
+				6ECCCF471F5DEF8600BD06CE /* AllCinemasController */,
 				6ECCCF2C1F5DED5D00BD06CE /* ExtensionDelegate.swift */,
 				6ECCCF2E1F5DED5D00BD06CE /* Assets.xcassets */,
 				6ECCCF301F5DED5D00BD06CE /* Info.plist */,
@@ -159,13 +166,65 @@
 			path = "desafioWatchOS WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		6ECCCF3E1F5DEDB900BD06CE /* Model */ = {
+		6ECCCF431F5DEF0100BD06CE /* AllCinemasStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				6ECCCF3F1F5DEDE200BD06CE /* Cinema.swift */,
-				6ECCCF411F5DEE5D00BD06CE /* CinemasSingleton.swift */,
+				6ECCCF1B1F5DED5D00BD06CE /* Interface.storyboard */,
 			);
-			name = Model;
+			name = AllCinemasStoryboard;
+			sourceTree = "<group>";
+		};
+		6ECCCF441F5DEF1100BD06CE /* TrailerOrLocationStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TrailerOrLocationStoryboard;
+			sourceTree = "<group>";
+		};
+		6ECCCF451F5DEF3E00BD06CE /* LocationStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF4F1F5F10F800BD06CE /* LocationStoryboard.storyboard */,
+			);
+			name = LocationStoryboard;
+			sourceTree = "<group>";
+		};
+		6ECCCF461F5DEF4800BD06CE /* TrailerStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TrailerStoryboard;
+			sourceTree = "<group>";
+		};
+		6ECCCF471F5DEF8600BD06CE /* AllCinemasController */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF2A1F5DED5D00BD06CE /* InterfaceController.swift */,
+				6ECCCF4D1F5DF43300BD06CE /* CinemasRowController.swift */,
+			);
+			name = AllCinemasController;
+			sourceTree = "<group>";
+		};
+		6ECCCF481F5DF02200BD06CE /* TrailerOrLocationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TrailerOrLocationController;
+			sourceTree = "<group>";
+		};
+		6ECCCF491F5DF02900BD06CE /* LocationController */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCCF511F5F114000BD06CE /* LocationInterfaceController.swift */,
+			);
+			name = LocationController;
+			sourceTree = "<group>";
+		};
+		6ECCCF4A1F5DF03500BD06CE /* TrailerStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TrailerStoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +347,7 @@
 			files = (
 				6ECCCF1F1F5DED5D00BD06CE /* Assets.xcassets in Resources */,
 				6ECCCF1D1F5DED5D00BD06CE /* Interface.storyboard in Resources */,
+				6ECCCF501F5F10F800BD06CE /* LocationStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECCCF421F5DEE5D00BD06CE /* CinemasSingleton.swift in Sources */,
-				6ECCCF401F5DEDE200BD06CE /* Cinema.swift in Sources */,
 				6ECCCF0A1F5DED5C00BD06CE /* ViewController.swift in Sources */,
 				6ECCCF081F5DED5C00BD06CE /* AppDelegate.swift in Sources */,
 			);
@@ -318,6 +376,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECCCF2D1F5DED5D00BD06CE /* ExtensionDelegate.swift in Sources */,
+				6ECCCF4E1F5DF43300BD06CE /* CinemasRowController.swift in Sources */,
+				6ECCCF521F5F114000BD06CE /* LocationInterfaceController.swift in Sources */,
 				6ECCCF2B1F5DED5D00BD06CE /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

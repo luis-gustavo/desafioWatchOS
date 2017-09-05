@@ -1,5 +1,5 @@
 //
-//  CinemasSingleton.swift
+//  CinemasRowController.swift
 //  desafioWatchOS
 //
 //  Created by Luis Gustavo Avelino de Lima Jacinto on 04/09/17.
@@ -7,11 +7,10 @@
 //
 
 import Foundation
+import WatchKit
 
-class CinemasSingleton{
+class CinemasRowController: NSObject{
     
-    var allCinemas: [Cinema] = [Cinema]()
-    
-    let sharedInstance = CinemasSingleton()
+    @IBOutlet var cinemaBtn: WKInterfaceButton!
     
 }
