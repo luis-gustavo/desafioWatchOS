@@ -9,10 +9,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
     <scenes>
-        <!--Location Interface Controller-->
+        <!--mapa-->
         <scene sceneID="4tI-MY-8tS">
             <objects>
-                <controller id="OPV-ry-0k1" customClass="LocationInterfaceController" customModule="desafioWatchOS_WatchKit_Extension">
+                <controller identifier="mapa" id="OPV-ry-0k1" customClass="LocationInterfaceController" customModule="desafioWatchOS_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="GZc-7b-gvu">
                             <items>
@@ -22,6 +22,13 @@
                                         <action selector="changeMapRegion:" destination="OPV-ry-0k1" id="Kbl-zl-Hwf"/>
                                     </connections>
                                 </slider>
+                                <button width="1" alignment="left" title="Trailer" id="bcm-t7-w41">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.3196139932" green="0.65631276370000002" blue="0.97611314059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <segue destination="djd-DV-988" kind="push" id="05K-gY-XM9"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
@@ -31,6 +38,13 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="104" y="-172"/>
+        </scene>
+        <!--trailer-->
+        <scene sceneID="el8-gh-n9u">
+            <objects>
+                <controllerPlaceholder referencedIdentifier="trailer" id="djd-DV-988"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="-172"/>
         </scene>
     </scenes>
 </document>

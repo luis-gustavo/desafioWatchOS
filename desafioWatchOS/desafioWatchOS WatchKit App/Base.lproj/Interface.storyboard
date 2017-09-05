@@ -23,7 +23,7 @@
                                         </items>
                                     </group>
                                     <connections>
-                                        <outlet property="cinemaBtn" destination="vLO-pG-mwL" id="qJJ-n8-VBv"/>
+                                        <outlet property="cinemaBtn" destination="vLO-pG-mwL" id="TuL-3N-GqZ"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -34,6 +34,13 @@
                     </connections>
                 </controller>
             </objects>
+        </scene>
+        <!--TrailerFilme-->
+        <scene sceneID="kKC-3N-iFi">
+            <objects>
+                <controllerPlaceholder referencedIdentifier="TrailerFilme" id="EfB-uR-1tC"/>
+            </objects>
+            <point key="canvasLocation" x="457" y="98"/>
         </scene>
     </scenes>
 </document>

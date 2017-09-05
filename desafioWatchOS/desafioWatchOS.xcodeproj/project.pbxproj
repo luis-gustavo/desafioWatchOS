@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F22EB291F5F3EA000CC8805 /* Macacos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F22EB281F5F3E7400CC8805 /* Macacos.mp4 */; };
+		3F9B8B611F5F1B63006D4160 /* TrailerFilme.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B8B601F5F1B63006D4160 /* TrailerFilme.storyboard */; };
+		3F9B8B631F5F1E42006D4160 /* TrailerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B8B621F5F1E42006D4160 /* TrailerInterfaceController.swift */; };
 		6ECCCF081F5DED5C00BD06CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF071F5DED5C00BD06CE /* AppDelegate.swift */; };
 		6ECCCF0A1F5DED5C00BD06CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCCF091F5DED5C00BD06CE /* ViewController.swift */; };
 		6ECCCF0D1F5DED5C00BD06CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCCF0B1F5DED5C00BD06CE /* Main.storyboard */; };
@@ -67,6 +70,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F22EB281F5F3E7400CC8805 /* Macacos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Macacos.mp4; sourceTree = "<group>"; };
+		3F9B8B601F5F1B63006D4160 /* TrailerFilme.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TrailerFilme.storyboard; sourceTree = "<group>"; };
+		3F9B8B621F5F1E42006D4160 /* TrailerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerInterfaceController.swift; sourceTree = "<group>"; };
 		6ECCCF041F5DED5C00BD06CE /* desafioWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECCCF071F5DED5C00BD06CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ECCCF091F5DED5C00BD06CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +198,7 @@
 		6ECCCF461F5DEF4800BD06CE /* TrailerStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				3F9B8B601F5F1B63006D4160 /* TrailerFilme.storyboard */,
 			);
 			name = TrailerStoryboard;
 			sourceTree = "<group>";
@@ -223,6 +230,8 @@
 		6ECCCF4A1F5DF03500BD06CE /* TrailerStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				3F9B8B621F5F1E42006D4160 /* TrailerInterfaceController.swift */,
+				3F22EB281F5F3E7400CC8805 /* Macacos.mp4 */,
 			);
 			name = TrailerStoryboard;
 			sourceTree = "<group>";
@@ -295,17 +304,17 @@
 				TargetAttributes = {
 					6ECCCF031F5DED5C00BD06CE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = A93689JNSR;
+						DevelopmentTeam = 6458MG576C;
 						ProvisioningStyle = Automatic;
 					};
 					6ECCCF151F5DED5D00BD06CE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = A93689JNSR;
+						DevelopmentTeam = 6458MG576C;
 						ProvisioningStyle = Automatic;
 					};
 					6ECCCF241F5DED5D00BD06CE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = A93689JNSR;
+						DevelopmentTeam = 6458MG576C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -347,6 +356,7 @@
 			files = (
 				6ECCCF1F1F5DED5D00BD06CE /* Assets.xcassets in Resources */,
 				6ECCCF1D1F5DED5D00BD06CE /* Interface.storyboard in Resources */,
+				3F9B8B611F5F1B63006D4160 /* TrailerFilme.storyboard in Resources */,
 				6ECCCF501F5F10F800BD06CE /* LocationStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECCCF2F1F5DED5D00BD06CE /* Assets.xcassets in Resources */,
+				3F22EB291F5F3EA000CC8805 /* Macacos.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +389,7 @@
 				6ECCCF2D1F5DED5D00BD06CE /* ExtensionDelegate.swift in Sources */,
 				6ECCCF4E1F5DF43300BD06CE /* CinemasRowController.swift in Sources */,
 				6ECCCF521F5F114000BD06CE /* LocationInterfaceController.swift in Sources */,
+				3F9B8B631F5F1E42006D4160 /* TrailerInterfaceController.swift in Sources */,
 				6ECCCF2B1F5DED5D00BD06CE /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,7 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = A93689JNSR;
+				DEVELOPMENT_TEAM = 6458MG576C;
 				INFOPLIST_FILE = "desafioWatchOS WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp.watchkitextension;
@@ -533,7 +545,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Debug;
 		};
@@ -541,7 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = A93689JNSR;
+				DEVELOPMENT_TEAM = 6458MG576C;
 				INFOPLIST_FILE = "desafioWatchOS WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp.watchkitextension;
@@ -550,7 +562,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Release;
 		};
@@ -559,7 +571,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A93689JNSR;
+				DEVELOPMENT_TEAM = 6458MG576C;
 				IBSC_MODULE = desafioWatchOS_WatchKit_Extension;
 				INFOPLIST_FILE = "desafioWatchOS WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp;
@@ -568,7 +580,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Debug;
 		};
@@ -577,7 +589,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A93689JNSR;
+				DEVELOPMENT_TEAM = 6458MG576C;
 				IBSC_MODULE = desafioWatchOS_WatchKit_Extension;
 				INFOPLIST_FILE = "desafioWatchOS WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS.watchkitapp;
@@ -586,7 +598,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Release;
 		};
@@ -594,7 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A93689JNSR;
+				DEVELOPMENT_TEAM = 6458MG576C;
 				INFOPLIST_FILE = desafioWatchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS;
@@ -607,7 +619,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A93689JNSR;
+				DEVELOPMENT_TEAM = 6458MG576C;
 				INFOPLIST_FILE = desafioWatchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.desafioWatchOS;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--trailer-->
+        <scene sceneID="ed3-mL-57O">
+            <objects>
+                <controller identifier="trailer" id="SXf-QK-05x" customClass="TrailerInterfaceController" customModule="desafioWatchOS_WatchKit_Extension">
+                    <items>
+                        <movie width="1" height="100" alignment="left" id="8xK-PX-JIB"/>
+                    </items>
+                    <connections>
+                        <outlet property="movie" destination="8xK-PX-JIB" id="krC-PY-hZl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="19" y="163"/>
+        </scene>
+    </scenes>
+</document>
